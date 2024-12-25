@@ -1,10 +1,11 @@
+import Image from "next/image";
 import Navbar from "./components/Navbar";
 
 const Home = () => {
   return (
     <div className="h-[100vh] bg-secondary">
       <section className=" container mx-auto flex flex-col lg:flex-row lg:justify-around px-4 justify-center  text-white text-center  py-20">
-        <img
+        <Image
           src="https://i.postimg.cc/59sR5r8Q/IMG-20230327-214043-606.jpg"
           className="w-[300px] h-auto rounded-[50%]"
           alt="my img"

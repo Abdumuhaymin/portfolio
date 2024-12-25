@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Image from "next/image";
 import { projects } from "../db";
 
 const Projects = () => {
@@ -14,7 +14,7 @@ const Projects = () => {
               key={index}
               className="bg-accent text-center overflow-hidden shadow-md rounded-lg  border-[3px] border-primary"
             >
-              <img src={project.img} alt="" />
+              <Image src={project.img} alt="" />
               <div className="p-6">
                 <h2 className="text-xl text-white">{project.title}</h2>
                 <p className="mt-2 text-white">{project.description}</p>
