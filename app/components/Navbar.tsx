@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const Navbar = () => {
-  const text = "Abdirakhmanov/'s";
+  const text = "Abdirakhmanov/s";
   return (
     <nav className="container px-4 mx-auto bg-primary text-white py-4 sticky top-0">
       <div className="container mx-auto flex justify-between items-center">
